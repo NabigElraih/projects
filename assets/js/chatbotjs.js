@@ -5,7 +5,7 @@ const chatbotToggler = document.querySelector(".chatbot-toggler");
 const chatBotCloseBtn = document.querySelector(".close-btn");
 
 let userMessage;
-const API_Key = "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";
+const API_Key = "APIKEY";
 const inputIniHeight = chatInput.scrollHeight; // Initial height of the input field
 
 const createChatLi = (message, className) => {
@@ -79,3 +79,4 @@ chatInput.addEventListener("keydown", (event) => {
 chatbotToggler.addEventListener("click", () => document.getElementById("chatToggler").classList.toggle("show-chatbot"));
 chatBotCloseBtn.addEventListener("click", () => document.getElementById("chatToggler").classList.remove("show-chatbot"));
 sendChatBtn.addEventListener("click", handleChat);
+
